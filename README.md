@@ -6,6 +6,12 @@ Este proyecto esta generado con: [Angular CLI](https://angular.dev/) version 18.
 
 _Aplicacion desarrollada en Angular, ejemplos de los ciclos de vida de angular, constructor, ngOnInit, ngOnChanges, ngDoCheck, ngAfterContentInit, ngAfterContentChecked, ngAfterViewInit, ngAfterViewChecked, ngOnDestroy_
 
+Mas Comunes: 
+- constructor : para algun tipo de inicializacion
+- ngOnInit: para hacer la primer peticion http, para hacer suscribe, o para estar escuchando los webSockets, o implementar los timers.
+- ngOnChanges: si necesitan estar pendientes de los cambios de las propiedades de los inputs
+-ngOnDestroy: para cerrar suscriptores, timers, o para hacer una peticion http para cerrar la conexion
+
 ## Demo 🎮
 
 _Despleegado con gihub pages, y despliegue automatico con scripts (npm run build:github)_

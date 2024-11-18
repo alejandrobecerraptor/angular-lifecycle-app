@@ -1,3 +1,16 @@
 <p>product works!</p>
 
-<products-price />
+<products-price
+  *ngIf="isPublicVisible"
+  [price]="currentPrice"
+/>
+
+<button (click)="isPublicVisible = !isPublicVisible">
+  {{ isPublicVisible ? 'Hide' : 'Show' }} public
+</button>
+
+<button (click)="increasePrice()">
+  +1 price
+</button>
+
+
