@@ -1,27 +1,41 @@
-# Lifecycle
+# Angular - LifeCycle
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+## AngularJs v18.2.11 - Pequeños ejemplos de los ciclos de vida de angular
 
-## Development server
+Este proyecto esta generado con: [Angular CLI](https://angular.dev/) version 18.2.11.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+_Aplicacion desarrollada en Angular, ejemplos de los ciclos de vida de angular, constructor, ngOnInit, ngOnChanges, ngDoCheck, ngAfterContentInit, ngAfterContentChecked, ngAfterViewInit, ngAfterViewChecked, ngOnDestroy_
 
-## Code scaffolding
+## Demo 🎮
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+_Despleegado con gihub pages, y despliegue automatico con scripts (npm run build:github)_
 
-## Build
+Este es el Demo de la aplicacion, **Update[ 18/11/2024 ]** [Click Aquí](https://alejandrobecerraptor.github.io/angular-lifeCycle-app/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Comenzando 🚀
 
-## Running unit tests
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Facil primero lo clonas con este comando:
 
-## Running end-to-end tests
+## `git clone https://github.com/alejandrobecerraptor/angular-lifeCycle-app.git`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+_Despues de eso te toca descargar las dependencias con:_ ⚙️
 
-## Further help
+## `npm install`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+_luego tendras que arrancar el proyecto y para eso necesitas ejecutar el comando:_
+
+## `ng serve`
+
+y listo disfruta! 🍦
+
+## Construido con 🛠️
+
+- [AngularJs v18](https://angular.dev/) - Framework/plataforma de JavaScript
+- [NPM](https://nodejs.org/es/download/) - Manejador de dependencias
+
+## Autores ✒️
+
+- **Alejandro Becerra** - _Desarrollador Inicial_ - [GitHub](https://github.com/alejandrobecerraptor)
+  Allí Encontraras mi correo de contacto.
